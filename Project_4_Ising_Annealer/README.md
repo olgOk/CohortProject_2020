@@ -53,7 +53,7 @@ using simulated annealing using the exponential annealing schedule. Our results 
 
 ## [Further Challenges: ](Challenge.ipynb)
 
-For the further challenges, starting from the 4-local Hamiltonian for Hydrogen from Task 3, we 
+For the [further challenges](Challenge.ipynb), starting from the 4-local Hamiltonian for Hydrogen from Task 3, we 
 applied the transformation from [Xi et al. (2017). arxiv:1706.00271](https://arxiv.org/pdf/1706.00271.pdf) to
 map this Hamiltonian into a 2-local Hamiltonian. Once this was accomplished, we benchmarked 
 the transformation by calculating the the Energy as a function of radius using the 
