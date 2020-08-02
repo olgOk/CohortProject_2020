@@ -51,7 +51,7 @@ using simulated annealing using the exponential annealing schedule. Our results 
 </figure>
 </p>
 
-## Further Challenges
+## [Further Challenges: ](Challenge.ipynb)
 
 For the further challenges, starting from the 4-local Hamiltonian for Hydrogen from Task 3, we 
 applied the transformation from [Xi et al. (2017). arxiv:1706.00271](https://arxiv.org/pdf/1706.00271.pdf) to
