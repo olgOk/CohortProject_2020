@@ -11,11 +11,12 @@ we provide more technical information the Ising Hamiltonians involved.
 Click on this link to begin learning about your tasks for this week!
 
 ## Tasks include:
-* Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
 
-### [Task 1](Task_1.ipynb) 2D Ferromagnetic Ising on a PBC Square Lattice: 
-In this task we determined the ground state configuration of the two-dimensional Ising model through simulated annealing
-using an exponential annealing schedule.
+
+### [Task 1: ](Task_1.ipynb) 2D Ferromagnetic Ising on a PBC Square Lattice
+In this task we determined the ground state configuration of the two-dimensional ferromagnetic Ising model through simulated annealing
+using an exponential annealing schedule. We were able to visualize the convergence of the Ising model from a
+random initial state to the ground state configuration. The Figure below illustrates the results.
 
 <p align="center">
 <figure>
@@ -24,23 +25,24 @@ using an exponential annealing schedule.
 </figure>
 </p>
 
-### [Task 2](Task_2.ipynb) Some Simple Spin Glasses:
+### [Task 2: ](Task_2.ipynb) Some Simple Spin Glasses
 In this task, two different annealing schedules (the exponential and linear schedule) were implemented and compared
 against one another. These two schedules were tested on the Ising model aswell as for the fully 
-connected Mattis model. 
+connected Mattis model. The results of these calculations are illustrated in the figures below.
 
 <p align="center">
 <figure>
   <img src="img/Task2_comparison.png" alt="The results for task 2" style="width: 30%; height: 30%">
   <figcaption> <b>Left:</b> The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
-  <b>Right:</b> The energy vs number of spin objests for the Mattis model using the linear and exponential annealing schedule. </figcaption>
+  <b>Right:</b> The energy vs number of spin objects for the Mattis model using the linear and exponential annealing schedule. </figcaption>
 </figure>
 </p>
 
 
-### [Task 3](Task_3.ipynb) Electronic Structure Calculations using Generalized Ising Hamiltonians
-In this task, we transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we embedded 
-it on the D-Wave's chimera topology and used quantum annealing on the real device to obtain the optimal value.
+### [Task 3: ](Task_3.ipynb) Electronic Structure Calculations using Generalized Ising Hamiltonians
+In this task, we transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we solved the 
+energy of the hydrogen atom as a function of the radius. For each radius, we determined the ground state energy
+using the exponential schedule. Our results are illustrated below.
 
 <p align="center">
 <figure>
@@ -49,6 +51,8 @@ it on the D-Wave's chimera topology and used quantum annealing on the real devic
 </figure>
 </p>
 
+
+* Further challenges
 
 
 ## Further Challenges: 
