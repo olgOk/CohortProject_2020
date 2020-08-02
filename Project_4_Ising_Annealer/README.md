@@ -51,10 +51,38 @@ using simulated annealing using the exponential annealing schedule. Our results 
 </figure>
 </p>
 
+## Further Challenges
 
-## [Further challenges](Challenge.ipynb)
-* In this task, starting from the up-to 4-local Hamiltonian, 
- transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we solved the
+For the further challenges, starting from the 4-local Hamiltonian for Hydrogen from Task 3, we 
+applied the transformation from [Xi et al. (2017). arxiv:1706.00271](https://arxiv.org/pdf/1706.00271.pdf) to
+map this Hamiltonian into a 2-local Hamiltonian. Once this was accomplished, we benchmarked 
+the transformation by calculating the the Energy as a function of radius using the 
+4-local aswell as the 2-local Hamiltonians and compared the results. The figure below indicates that all
+methods agree with one another and that they match the exact solution.
+
+<p align="center">
+<figure>
+  <img src="img/Additional_task_p1.png" alt="The results for additional task" align="center">
+  <figcaption>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius for the 2-local and 4-local Hamiltonians. All curves overlap. </figcaption>
+</figure>
+</p>
+
+Once we verified that the 2-local Hamiltonian was correct, we implemented this Hamiltonian
+in the D-Wave machine and used Quantum annealing to determine the Energy as a function
+of the radius for the Hydrogen molecule. For this task we used the QPU aswell as the 
+Hybrid solver. The results are plotted below indicating exact agreement between the 
+different methods. Furthermore, the results from D-wave match exactly the results obtained 
+from simulated annealing.
+
+ <p align="center">
+<figure>
+  <img src="img/Additional_task_p2.png" alt="The results for additional task" align="center">
+  <figcaption> <b>Left:</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
+  using D-Wave hybrid solver. <b>Right:</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
+  using D-Wave QPU. </figcaption>
+</figure>
+</p>
+
 
 ## Further Challenges: 
 * Explore the annealing procedure on the Mattis glass.
