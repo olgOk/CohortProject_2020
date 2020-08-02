@@ -72,7 +72,7 @@ in the D-Wave machine and used Quantum annealing to determine the Energy as a fu
 of the radius for the Hydrogen molecule. For this task we used the QPU aswell as the 
 Hybrid solver. The results are plotted below indicating exact agreement between the 
 different methods. Furthermore, the results from D-wave match exactly the results obtained 
-from simulated annealing.
+from simulated annealing and the exact solution.
 
  <p align="center">
 <figure>
@@ -83,12 +83,18 @@ from simulated annealing.
 </figure>
 </p>
 
+It is worth noting that the transformed 2-local Hamiltonian requires more annealing steps
+than the 4-local Hamiltonian. Therefore more steps are used in order to allow the 2-local Hamiltonian
+to converge. An illustration of the failure of the annealing process for the 2-local Hamiltonian is shown below.
 
-## Further Challenges: 
-* Explore the annealing procedure on the Mattis glass.
-* Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
-* Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
-* Go wild and try thermal annealing on your favorite NP-hard problem!
+ <p align="center">
+<figure>
+  <img src="img/Additional_task_p3.png" alt="The results for additional task" align="center">
+  <figcaption> <b>Left:</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
+  using simulated annealing. Less iterations were used to demonstrate the failure of the 2-local Hamiltonian
+  to determine the ground state configuration. </figcaption>
+</figure>
+</p>
 
 ## Business Application
 One again, your team is asked to complete a Business Application. Questions you will be asked are:
