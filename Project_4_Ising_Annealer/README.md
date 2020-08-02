@@ -19,7 +19,7 @@ using an exponential annealing schedule.
 
 <p align="center">
 <figure>
-  <img src="img/Task1_results.png" alt="The results for task 1">
+  <img src="img/Task1_results.png" alt="The results for task 1" align="center">
   <figcaption>Caption text</figcaption>
 </figure>
 </p>
