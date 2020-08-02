@@ -20,11 +20,21 @@ using an exponential annealing schedule.
 <p align="center">
 <figure>
   <img src="img/Task1_results.png" alt="The results for task 1" align="center">
-  <figcaption>Caption text</figcaption>
+  <figcaption> Left: The initial state of Ising model. Right: The </figcaption>
 </figure>
 </p>
 
-Task 2 description:
+### [Task 2](Task_2.ipynb):
+In this task, two different annealing schedules (the exponential and linear schedule) were implemented and compared
+against one another. These two schedules were tested on the Ising model aswell as for the fully 
+connected Mattis model. 
+
+<p align="center">
+<figure>
+  <img src="img/Task2_comparison.png" alt="The results for task 1" align="center">
+  <figcaption>Caption text</figcaption>
+</figure>
+</p>
 
 
 Task 3 description:
