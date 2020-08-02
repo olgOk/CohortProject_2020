@@ -20,7 +20,7 @@ using an exponential annealing schedule.
 <p align="center">
 <figure>
   <img src="img/Task1_results.png" alt="The results for task 1" align="center">
-  <figcaption> Left: The initial state of Ising model. Right: The </figcaption>
+  <figcaption> <b>Left:<\b> The initial state of Ising model.  <b>Right:<\b> The ground state configuration of the Ising model. </figcaption>
 </figure>
 </p>
 
@@ -31,9 +31,9 @@ connected Mattis model.
 
 <p align="center">
 <figure>
-  <img src="img/Task2_comparison.png" alt="The results for task 2" style="width: 50%; height: 50%">
-  <figcaption>Left: The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
-  Right: The energy vs number of spin objests for the Mattis model using the linear and exponential annealing schedule. </figcaption>
+  <img src="img/Task2_comparison.png" alt="The results for task 2" style="width: 30%; height: 30%">
+  <figcaption> <b>Left:<\b> The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
+  <b>Right:<\b> The energy vs number of spin objests for the Mattis model using the linear and exponential annealing schedule. </figcaption>
 </figure>
 </p>
 
