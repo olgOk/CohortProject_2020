@@ -31,7 +31,7 @@ connected Mattis model.
 
 <p align="center">
 <figure>
-  <img src="img/Task2_comparison.png" alt="The results for task 2" align="center">
+  <img src="img/Task2_comparison.png" alt="The results for task 2" style="width: 50%; height: 50%">
   <figcaption>Left: The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
   Right: The energy vs number of spin objests for the Mattis model using the linear and exponential annealing schedule. </figcaption>
 </figure>
