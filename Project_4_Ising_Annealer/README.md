@@ -63,7 +63,7 @@ methods agree with one another and that they match the exact solution.
 <p align="center">
 <figure>
   <img src="img/Additional_task_p1.png" alt="The results for additional task" align="center">
-  <figcaption>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius for the 2-local and 4-local Hamiltonians. All curves overlap. </figcaption>
+  <figcaption> <b>Figure: </b>  <em> The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius for the 2-local and 4-local Hamiltonians. All curves overlap.  </em> </figcaption>
 </figure>
 </p>
 
@@ -77,9 +77,9 @@ from simulated annealing and the exact solution.
  <p align="center">
 <figure>
   <img src="img/Additional_task_p2.png" alt="The results for additional task" align="center">
-  <figcaption> <b>Left:</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
-  using D-Wave hybrid solver. <b>Right:</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
-  using D-Wave QPU. </figcaption>
+  <figcaption> <b> Figure: </b>  <em> <b>Left-</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
+  using D-Wave hybrid solver. <b>Right-</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
+  using D-Wave QPU.  </em> </figcaption>
 </figure>
 </p>
 
@@ -90,9 +90,9 @@ to converge. An illustration of the failure of the annealing process for the 2-l
  <p align="center">
 <figure>
   <img src="img/Additional_task_p3.png" alt="The results for additional task" align="center">
-  <figcaption> <b>Left:</b> The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
+  <figcaption> <b>Figure: </b> <em>The ground state energy of the 2-local hydrogen atom Hamiltonian solved 
   using simulated annealing. Less iterations were used to demonstrate the failure of the 2-local Hamiltonian
-  to determine the ground state configuration. </figcaption>
+  to determine the ground state configuration.</em> </figcaption>
 </figure>
 </p>
 
