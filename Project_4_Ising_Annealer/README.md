@@ -13,7 +13,7 @@ Click on this link to begin learning about your tasks for this week!
 ## Tasks include:
 * Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
 
-### [Task 1](Task_1.ipynb): 
+### [Task 1](Task_1.ipynb) 2D Ferromagnetic Ising on a PBC Square Lattice: 
 In this task we determined the ground state configuration of the two-dimensional Ising model through simulated annealing
 using an exponential annealing schedule.
 
@@ -24,7 +24,7 @@ using an exponential annealing schedule.
 </figure>
 </p>
 
-### [Task 2](Task_2.ipynb):
+### [Task 2](Task_2.ipynb) Some Simple Spin Glasses:
 In this task, two different annealing schedules (the exponential and linear schedule) were implemented and compared
 against one another. These two schedules were tested on the Ising model aswell as for the fully 
 connected Mattis model. 
@@ -37,12 +37,16 @@ connected Mattis model.
 </p>
 
 
-Task 3 description:
+### [Task 3](Task_3.ipynb) Electronic Structure Calculations using Generalized Ising Hamiltonians
+In this task, we transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we embedded 
+it on the D-Wave's chimera topology and used quantum annealing on the real device to obtain the optimal value.
 
-* Perform thermal annealing to solve for the groundstate of disordered Ising models.
-* Apply what you have learned to solve the Hydrogen molecule groundstate.
-
-
+<p align="center">
+<figure>
+  <img src="img/Task2_comparison.png" alt="The results for task 1" align="center">
+  <figcaption>Caption text</figcaption>
+</figure>
+</p>
 
 
 
