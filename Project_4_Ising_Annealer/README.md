@@ -20,7 +20,7 @@ random initial state to the ground state configuration. The Figure below illustr
 <p align="center">
 <figure>
   <img src="img/Task1_results.png" alt="The results for task 1" align="center">
-  <figcaption> <b>Left:</b> The initial state of Ising model.  <b>Right:</b> The ground state configuration of the Ising model. </figcaption>
+  <figcaption>  <b>Figure: </b>  <em><b>Left-</b> The initial state of Ising model.  <b>Right-</b> The ground state configuration of the Ising model.</em> </figcaption>
 </figure>
 </p>
 
@@ -32,8 +32,8 @@ connected Mattis model. The results of these calculations are illustrated in the
 <p align="center">
 <figure>
   <img src="img/Task2_comparison.png" alt="The results for task 2" style="width: 30%; height: 30%">
-  <figcaption> <b>Left:</b> The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
-  <b>Right:</b> The energy vs number of spin objects for the Mattis model using the linear and exponential annealing schedule. </figcaption>
+  <figcaption>  <b>Figure: </b> <em> <b>Left-</b> The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
+  <b>Right-</b> The energy vs number of spin objects for the Mattis model using the linear and exponential annealing schedule. </em> </figcaption>
 </figure>
 </p>
 
@@ -47,7 +47,7 @@ using simulated annealing using the exponential annealing schedule. Our results 
 <p align="center">
 <figure>
   <img src="img/Task3_Energy_vs_radius.png" alt="The results for task 3" align="center">
-  <figcaption>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius. The blue curve is the energy obtained from simulated annealing while the orage line represents the exact energy. Both curves overlap. </figcaption>
+  <figcaption> <b>Figure: </b> <em>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius. The blue curve is the energy obtained from simulated annealing while the orage line represents the exact energy. Both curves overlap.</em> </figcaption>
 </figure>
 </p>
 
