@@ -10,8 +10,7 @@ In our [Project4_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2
 we provide more technical information the Ising Hamiltonians involved.
 Click on this link to begin learning about your tasks for this week!
 
-## Tasks include:
-
+## Task summaries
 
 ### [Task 1: ](Task_1.ipynb) 2D Ferromagnetic Ising on a PBC Square Lattice
 In this task we determined the ground state configuration of the two-dimensional ferromagnetic Ising model through simulated annealing
@@ -27,7 +26,7 @@ random initial state to the ground state configuration. The Figure below illustr
 
 ### [Task 2: ](Task_2.ipynb) Some Simple Spin Glasses
 In this task, two different annealing schedules (the exponential and linear schedule) were implemented and compared
-against one another. These two schedules were tested on the Ising model aswell as for the fully 
+against one another. These two schedules were tested on the Ising model aswell as the fully 
 connected Mattis model. The results of these calculations are illustrated in the figures below.
 
 <p align="center">
@@ -40,20 +39,21 @@ connected Mattis model. The results of these calculations are illustrated in the
 
 
 ### [Task 3: ](Task_3.ipynb) Electronic Structure Calculations using Generalized Ising Hamiltonians
-In this task, we transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we solved the 
-energy of the hydrogen atom as a function of the radius. For each radius, we determined the ground state energy
-using the exponential schedule. Our results are illustrated below.
+ 
+Using the annealing schedule determined from the previous task, we used it to solve a Hamiltonian representing 
+the hydrogen atom as a function of the radius. For each radius we determined the ground state energy
+using simulated annealing using the exponential annealing schedule. Our results are illustrated below.
 
 <p align="center">
 <figure>
   <img src="img/Task3_Energy_vs_radius.png" alt="The results for task 3" align="center">
-  <figcaption>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius.</figcaption>
+  <figcaption>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius. The blue curve is the energy obtained from simulated annealing while the orage line represents the exact energy. Both curves overlap. </figcaption>
 </figure>
 </p>
 
 
-* Further challenges
-
+## Further challenges
+* In this task, we transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we solved the
 
 ## Further Challenges: 
 * Explore the annealing procedure on the Mattis glass.
