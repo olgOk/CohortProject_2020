@@ -13,13 +13,9 @@ Click on this link to begin learning about your tasks for this week!
 ## Tasks include:
 * Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
 
-### [Task 1](/Task_1.ipynb): 
+### [Task 1](Task_1.ipynb): 
 In this task we determined the ground state configuration of the two-dimensional Ising model through simulated annealing
 using an exponential annealing schedule.
-
-![Task1_image](img/Task1_results.png)
-
-
 
 <figure>
   <img src="img/Task1_results.png" alt="The results for task 1">
