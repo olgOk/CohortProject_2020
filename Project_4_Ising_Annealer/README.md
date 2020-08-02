@@ -31,8 +31,9 @@ connected Mattis model.
 
 <p align="center">
 <figure>
-  <img src="img/Task2_comparison.png" alt="The results for task 1" align="center">
-  <figcaption>Caption text</figcaption>
+  <img src="img/Task2_comparison.png" alt="The results for task 2" align="center">
+  <figcaption>Left: The energy vs number of spin objects for an Ising model using a linear annealing schedule and an exponential schedule. 
+  Right: The energy vs number of spin objests for the Mattis model using the linear and exponential annealing schedule. </figcaption>
 </figure>
 </p>
 
@@ -43,8 +44,8 @@ it on the D-Wave's chimera topology and used quantum annealing on the real devic
 
 <p align="center">
 <figure>
-  <img src="img/Task2_comparison.png" alt="The results for task 1" align="center">
-  <figcaption>Caption text</figcaption>
+  <img src="img/Task3_Energy_vs_radius.png" alt="The results for task 3" align="center">
+  <figcaption>The ground state energy of the hydrogen atom solved using a simulated annealing procedure as a function of the radius.</figcaption>
 </figure>
 </p>
 
