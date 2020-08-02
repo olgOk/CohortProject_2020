@@ -12,8 +12,31 @@ Click on this link to begin learning about your tasks for this week!
 
 ## Tasks include:
 * Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
+
+### [Task 1](/Task_1.ipynb): 
+In this task we determined the ground state configuration of the two-dimensional Ising model through simulated annealing
+using an exponential annealing schedule.
+
+![Task1_image](img/Task1_results.png)
+
+
+
+<figure>
+  <img src="img/Task1_results.png" alt="The results for task 1">
+  <figcaption>Caption text</figcaption>
+</figure>
+
+Task 2 description:
+
+
+Task 3 description:
+
 * Perform thermal annealing to solve for the groundstate of disordered Ising models.
 * Apply what you have learned to solve the Hydrogen molecule groundstate.
+
+
+
+
 
 ## Further Challenges: 
 * Explore the annealing procedure on the Mattis glass.
