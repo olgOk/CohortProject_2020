@@ -17,10 +17,12 @@ Click on this link to begin learning about your tasks for this week!
 In this task we determined the ground state configuration of the two-dimensional Ising model through simulated annealing
 using an exponential annealing schedule.
 
+<p align="center">
 <figure>
   <img src="img/Task1_results.png" alt="The results for task 1">
   <figcaption>Caption text</figcaption>
 </figure>
+</p>
 
 Task 2 description:
 
