@@ -9,8 +9,8 @@ interact with one through simple, pair-wise interactions. Despite the simplicity
 it can be used to understand complex physical phenomena such as phase-transitions. In this exercise, in [Task 1](/Task_1.ipynb),
 we started by simulating simple Ising model and determined its ground state configuration using simulated Annealing. The convergence
 of this simulated annealing procedure is dependent on the "annealing" schedule which, over-time, reduces the temperature 
-of the simulation until convergence is achieved. Therefore, in [task 2](/Task_2.ipynb) we investigated the effect of
-different schedules to the speed of convergence for the ising models. Finally, in [Task 3][/Task_3.ipynb], we applied the Ising model
+of the simulation until convergence is achieved. Therefore, in [Task 2](/Task_2.ipynb) we investigated the effect of
+different schedules to the speed of convergence for the ising models. Finally, in [Task 3](/Task_3.ipynb), we applied the Ising model
 to simulate other systems. This was done first by mapping k-local Hamiltonians into 2-local Hamiltonians which 
 could then be embedded into D-Wave's chimera topology and through quantum annealing, the optimal state was determined. 
 
