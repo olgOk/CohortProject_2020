@@ -1,7 +1,7 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 ## Project 4: Ising Annealing
 
-Your final week's project will guide you through the process of mapping an electronic structure Hamiltonian to a classical Ising model, and then solving for the groundstate of the model using a thermal anneling Monte Carlo simulation.
+Our final week's project will guide you through the process of mapping an electronic structure Hamiltonian to a classical Ising model, and then solving for the groundstate of the model using a thermal anneling Monte Carlo simulation.
 
 A very brief introduction to the main ideas behind the project, and the basics of the Monte Carlo method are
 [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/CDL_2020_docs.pdf)
@@ -52,8 +52,9 @@ using simulated annealing using the exponential annealing schedule. Our results 
 </p>
 
 
-## Further challenges
-* In this task, we transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we solved the
+## [Further challenges](Challenge.ipynb)
+* In this task, starting from the up-to 4-local Hamiltonian, 
+ transformed k-local hamiltonian to 2-local hamiltonian. Once transformed, we solved the
 
 ## Further Challenges: 
 * Explore the annealing procedure on the Mattis glass.
