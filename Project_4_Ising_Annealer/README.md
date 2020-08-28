@@ -1,7 +1,7 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 ## Project 4: Ising Annealing
 
-Our final week's project will guide you through the process of mapping an electronic structure Hamiltonian to a classical Ising model, and then solving for the groundstate of the model using a thermal anneling Monte Carlo simulation.
+Our final week's project will guide you through the process of mapping an electronic structure Hamiltonian to a classical Ising model, and then solving for the groundstate of the model using a thermal annealing Monte Carlo simulation.
 
 A very brief introduction to the main ideas behind the project, and the basics of the Monte Carlo method are
 [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/CDL_2020_docs.pdf)
